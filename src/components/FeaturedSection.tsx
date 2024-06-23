@@ -29,14 +29,14 @@ const FeaturedSection = () => {
         </div>
 
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-5 mx-3 gap-8 justify-center'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-8 mx-3 gap-8 justify-center'>
             {featureCourses.map((eachFeatureCourse:Course) =>(
               <div key={(eachFeatureCourse.id).toString()} className='flex justify-center'>
                         <BackgroundGradient className='flex flex-col rounded-[22px] dark:bg-zinx-900 overflow-hidden h-full max-w-sm '>
-                            <div className='p-4 sm:p-6 flex flex-col items-center text-center flex-grow  '>
+                            <div className='p-4 sm:p-6 flex flex-col text-left flex-grow  '>
 
-                                <p className='text-lg sm:text-xl text-black my-3 dark:text-neutral-200'>{eachFeatureCourse.title}</p>
-                                <p className='text-lg sm:text-xl text-neutral-600 my-3 dark:text-neutral-400 flex-grow'>{eachFeatureCourse.description}</p>
+                                <p className='text-lg sm:text-xl font-bold text-black my-3 dark:text-neutral-200'>{eachFeatureCourse.title}</p>
+                                <p className='text-lg sm:text-xl  text-neutral-200 my-3 dark:text-neutral-600 flex-grow'>{eachFeatureCourse.description}</p>
                                 <Link href={`/courses/${eachFeatureCourse.slug}`}>Read more</Link>
                             </div>
                         </BackgroundGradient>
