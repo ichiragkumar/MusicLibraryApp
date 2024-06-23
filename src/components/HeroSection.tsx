@@ -23,11 +23,14 @@ const HeroSection = () => {
 
                 <div className='mt-7'>
                     <Link href={"/courses"}>
-                        <Button className='border-white'>
+                        <Button>
                             Explore Courses
                         </Button>
                     </Link>
                 </div>
+
+
+          
             </div>
     </div>
   )
