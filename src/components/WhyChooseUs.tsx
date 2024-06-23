@@ -32,7 +32,7 @@ const musicSchoolContent = [
     {
       title: 'Limitless Learning Opportunities',
       description:
-        'With our expansive resource library and dynamic course offerings, you’ll never find yourself without something new to explore. Our platform provides continuous opportunities for growth, ensuring your musical skills are always advancing.',
+        'With our expansive resource library and dynamic course offerings,With our expansive resource library and dynamic course offerings you’ll never find yourself without something new to explore. Our platform provides continuous opportunities for growth, ensuring your musical skills are always advancing.',
     },
   ];
 
