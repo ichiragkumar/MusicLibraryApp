@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import { Spotlight } from "@/components/ui/Spotlight";
 import FeaturedSection from "@/components/FeaturedSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import { InfiniteMovingCardsDemo } from "@/components/MovingCards";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <HeroSection />
     <FeaturedSection/>
     <WhyChooseUs/>
+    <InfiniteMovingCardsDemo/>
   </main>
   );
 }
