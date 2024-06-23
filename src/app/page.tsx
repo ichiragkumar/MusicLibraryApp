@@ -5,6 +5,7 @@ import { Spotlight } from "@/components/ui/Spotlight";
 import FeaturedSection from "@/components/FeaturedSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { InfiniteMovingCardsDemo } from "@/components/MovingCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <FeaturedSection/>
     <WhyChooseUs/>
     <InfiniteMovingCardsDemo/>
+    <UpcomingWebinars/>
   </main>
   );
 }
